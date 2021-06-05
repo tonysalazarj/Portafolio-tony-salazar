@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony Salazar</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/experiences.css">
+    <script defer src="js/app.js"></script>
+</head>
+
+<body>
+    <!-- encabezado -->
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img height="120" width="200" src="img/logo1.png" alt="Programador">
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="img/hamburger-icon.svg" alt="abrir menú">
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Abrir menú">
+                    <img src="img/close-icon.svg" alt="cerrar menú">
+                </button>
+                <li><a href="#profile">Perfil</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Seccion de perfil -->
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+            <div class="profile-info">
+                <h1 class="profile-title">Hola, Soy<br>Tony Salazar</h1>
+                <p class="profile-details">Ingeniero de sistemas integral y multidisciplinario, con formación y experiencia laboral
+                 en diferentes áreas de negocios, tales como; componente administrativo, tecnológico e informático,
+                 con fuerte orientación al aseguramiento de la calidad del software.</p>
+                <button class="profile-btn">
+                    Descargar CV
+                </button>
+            </div>
+            <div class="profile-img-section">
+                <img class="profile-img"
+                src="img/foto.jpeg" alt="programador"/>
+                <div class="profile-img-line"></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- secion de experiencia -->
+    <section class="experiences" id="experience">
+         <img src="img/wave.svg" alt="division" class="wave">
+            <div class="experiences-body">
+                <h2 class="experiences-title">Experiencia</h2>
+                <div class="experiences-grid">
+                    <!-- para poner experiencias en zigzag -->
+                    <div class="empty"></div>
+                    <div class="line"></div>
+                    <!-- experiencia 1 -->
+                    <div class="experience">
+                        <div class="experience-date">2019-2020 </div>                      
+                        <div class="experience-company">CQWERTY Soluciones Informaticas</div>
+                        <div class="experience-position">Analista de Sistemas</div>
+                        <div class="experience-description">- Análisis de sistemas. 
+                            - Relevamiento de requerimientos funcionales para el desarrollo de software
+                            - Diseñar y documentar  casos de prueba Manuales (Caja Negra)
+                            - Ejecución de casos de pruebas Manuales y registro de resultados
+                            - Reporte y seguimiento de defectos o Bugs detectados
+                            - Ejecución de Pruebas Funcionales de Sistema.</div>
+                    </div>
+
+                
+
+                    <!-- experiencia 2 -->
+                    <div class="experience experience-_left">
+                        <div class="experience-date">2014-2018 </div>                     
+                        <div class="experience-company">Corpoelec</div>
+                        <div class="experience-position">Profesional IT</div>
+                        <div class="experience-description">- Relevar y gestionar necesidades funcionales del cliente en la elaboración y gestión de proyectos
+                            - Análisis de sistemas
+                            - Generar documentación de acuerdo a las políticas de calidad
+                            - Ingeniería de proyectos
+                            - Implementación de sistema de gestión de la calidad
+                            - Control de indicadores de Gestión</div>
+                    </div> 
+                     <!-- para poner experiencias en zigzag -->
+                    <div class="line"></div>
+                    <div class="empty"></div>
+                    <div class="empty"></div>
+                    <div class="line"></div>
+                    <!-- experiencia 3 --> 
+                   <div class="experience"> 
+                        <div class="experience-date">2010-2013 </div>                     
+                        <div class="experience-company">CORPOELEC</div>
+                        <div class="experience-position">Asistente IT</div>
+                        <div class="experience-description">Programación de computadoras y desarrollo de software de creación específica, trabajar en equipos multidisciplinarios, diseño de soluciones alternativas que respondan a las necesidades de la unidad de negocio, asistencia y apoyo a líderes de proyectos en la coordinación, control y seguimiento en la gestión de proyectos. capacitación y acompañamiento de usuarios finales en el uso de sistemas y herramientas tecnológicas, generar reportes y documentación de complejidad básica.</div>
+                    </div>
+
+
+                </div>
+
+                
+            </div>
+
+         <img src="img/wave.svg" alt="division" class="wave wave_bottom">
+    </section>
+
+<!-- Habilidades y conocimientos -->
+    <div class="horizontal-padding vertical-padding"> 
+        <section class="skills" id="skills">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">JavaScript</li>
+                <li class="skills-skill">Java</li>
+                <li class="skills-skill">Python</li>
+                <li class="skills-skill">MySQL</li>
+                <li class="skills-skill">QA Testing</li>
+                <li class="skills-skill">Gestión de Proyectos</li>
+
+            </ul>
+        </section>
+    </div>
+
+    <section class="contact" id="contact">
+        <h3>Cotacto</h3>
+
+    </section>
+
+
+</body>
+
+</html>
